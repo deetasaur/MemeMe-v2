@@ -350,7 +350,7 @@
         <scene sceneID="ATV-Ym-Yzk">
             <objects>
                 <navigationController id="brz-VE-gMh" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Collection" id="03p-fg-tT5"/>
+                    <tabBarItem key="tabBarItem" title="Collection" image="Collection" id="03p-fg-tT5"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="WFG-jV-031">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -433,7 +433,7 @@
         <scene sceneID="78A-xl-3Sl">
             <objects>
                 <navigationController id="q1Q-IL-hOr" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Table" id="0rn-lF-8vp"/>
+                    <tabBarItem key="tabBarItem" title="Table" image="Table" id="0rn-lF-8vp"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="1d2-dz-81B">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -529,6 +529,10 @@
             <point key="canvasLocation" x="2851.5" y="1607"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Collection" width="30" height="30"/>
+        <image name="Table" width="30" height="30"/>
+    </resources>
     <inferredMetricsTieBreakers>
         <segue reference="gwm-Fr-w7S"/>
     </inferredMetricsTieBreakers>
