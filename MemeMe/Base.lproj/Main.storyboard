@@ -84,12 +84,12 @@
                                                     <exclude reference="udP-UN-5CD"/>
                                                 </mask>
                                                 <mask key="constraints">
-                                                    <exclude reference="3Oa-z3-5cS"/>
-                                                    <exclude reference="4Fp-yX-dAD"/>
-                                                    <exclude reference="EtK-OP-2kF"/>
                                                     <exclude reference="do6-S8-Xdc"/>
                                                     <exclude reference="uMR-Sz-GBt"/>
                                                     <exclude reference="xgA-EH-aSN"/>
+                                                    <exclude reference="3Oa-z3-5cS"/>
+                                                    <exclude reference="4Fp-yX-dAD"/>
+                                                    <exclude reference="EtK-OP-2kF"/>
                                                 </mask>
                                             </variation>
                                             <variation key="widthClass=compact">
@@ -98,12 +98,12 @@
                                                     <include reference="udP-UN-5CD"/>
                                                 </mask>
                                                 <mask key="constraints">
-                                                    <include reference="3Oa-z3-5cS"/>
-                                                    <include reference="4Fp-yX-dAD"/>
-                                                    <include reference="EtK-OP-2kF"/>
                                                     <include reference="do6-S8-Xdc"/>
                                                     <include reference="uMR-Sz-GBt"/>
                                                     <include reference="xgA-EH-aSN"/>
+                                                    <include reference="3Oa-z3-5cS"/>
+                                                    <include reference="4Fp-yX-dAD"/>
+                                                    <include reference="EtK-OP-2kF"/>
                                                 </mask>
                                             </variation>
                                         </tableViewCellContentView>
