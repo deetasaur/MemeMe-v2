@@ -28,36 +28,82 @@
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="6K0-c9-pL2" id="l17-83-1AW">
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="gEr-hK-9vQ">
+                                                    <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="101" id="JHu-Ip-b0J"/>
+                                                    </constraints>
+                                                    <variation key="default">
+                                                        <mask key="constraints">
+                                                            <exclude reference="JHu-Ip-b0J"/>
+                                                        </mask>
+                                                    </variation>
+                                                    <variation key="widthClass=compact">
+                                                        <mask key="constraints">
+                                                            <include reference="JHu-Ip-b0J"/>
+                                                        </mask>
+                                                    </variation>
+                                                </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="udP-UN-5CD">
                                                     <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
                                                     <gestureRecognizers/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="33" id="rwI-o3-FRH">
+                                                            <variation key="widthClass=compact" constant="275"/>
+                                                        </constraint>
+                                                    </constraints>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
-                                                    <variation key="widthClass=compact" fixedFrame="YES">
-                                                        <rect key="frame" x="120" y="8" width="266" height="54"/>
+                                                    <variation key="default">
+                                                        <mask key="constraints">
+                                                            <exclude reference="rwI-o3-FRH"/>
+                                                        </mask>
+                                                    </variation>
+                                                    <variation key="widthClass=compact">
+                                                        <mask key="constraints">
+                                                            <include reference="rwI-o3-FRH"/>
+                                                        </mask>
                                                     </variation>
                                                     <connections>
                                                         <outletCollection property="gestureRecognizers" destination="6PC-ly-xRO" appends="YES" id="Tbc-6c-tek"/>
                                                     </connections>
                                                 </label>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="gEr-hK-9vQ">
-                                                    <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
-                                                    <variation key="widthClass=compact" fixedFrame="YES">
-                                                        <rect key="frame" x="0.0" y="-7" width="101" height="83"/>
-                                                    </variation>
-                                                </imageView>
                                             </subviews>
+                                            <constraints>
+                                                <constraint firstItem="gEr-hK-9vQ" firstAttribute="top" secondItem="l17-83-1AW" secondAttribute="topMargin" constant="-15" id="3Oa-z3-5cS"/>
+                                                <constraint firstItem="gEr-hK-9vQ" firstAttribute="centerY" secondItem="l17-83-1AW" secondAttribute="centerY" id="4Fp-yX-dAD"/>
+                                                <constraint firstItem="gEr-hK-9vQ" firstAttribute="leading" secondItem="l17-83-1AW" secondAttribute="leading" id="EtK-OP-2kF"/>
+                                                <constraint firstItem="udP-UN-5CD" firstAttribute="top" secondItem="l17-83-1AW" secondAttribute="topMargin" id="do6-S8-Xdc"/>
+                                                <constraint firstItem="udP-UN-5CD" firstAttribute="leading" secondItem="gEr-hK-9vQ" secondAttribute="trailing" constant="16" id="uMR-Sz-GBt"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="udP-UN-5CD" secondAttribute="bottom" constant="-0.5" id="xgA-EH-aSN"/>
+                                            </constraints>
                                             <variation key="default">
                                                 <mask key="subviews">
-                                                    <exclude reference="udP-UN-5CD"/>
                                                     <exclude reference="gEr-hK-9vQ"/>
+                                                    <exclude reference="udP-UN-5CD"/>
+                                                </mask>
+                                                <mask key="constraints">
+                                                    <exclude reference="3Oa-z3-5cS"/>
+                                                    <exclude reference="4Fp-yX-dAD"/>
+                                                    <exclude reference="EtK-OP-2kF"/>
+                                                    <exclude reference="do6-S8-Xdc"/>
+                                                    <exclude reference="uMR-Sz-GBt"/>
+                                                    <exclude reference="xgA-EH-aSN"/>
                                                 </mask>
                                             </variation>
                                             <variation key="widthClass=compact">
                                                 <mask key="subviews">
-                                                    <include reference="udP-UN-5CD"/>
                                                     <include reference="gEr-hK-9vQ"/>
+                                                    <include reference="udP-UN-5CD"/>
+                                                </mask>
+                                                <mask key="constraints">
+                                                    <include reference="3Oa-z3-5cS"/>
+                                                    <include reference="4Fp-yX-dAD"/>
+                                                    <include reference="EtK-OP-2kF"/>
+                                                    <include reference="do6-S8-Xdc"/>
+                                                    <include reference="uMR-Sz-GBt"/>
+                                                    <include reference="xgA-EH-aSN"/>
                                                 </mask>
                                             </variation>
                                         </tableViewCellContentView>
@@ -67,9 +113,6 @@
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="0.0" y="0.0" width="400" height="600"/>
-                                </variation>
                                 <connections>
                                     <outlet property="dataSource" destination="1mm-UA-lm3" id="tRD-N7-oNe"/>
                                     <outlet property="delegate" destination="1mm-UA-lm3" id="sPS-4h-5iF"/>
@@ -78,14 +121,32 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="ID3-jl-n9c" secondAttribute="trailing" constant="-16" id="JLC-AP-XqL"/>
+                            <constraint firstItem="ID3-jl-n9c" firstAttribute="top" secondItem="Sdv-px-cN0" secondAttribute="topMargin" id="wPe-vB-iZa"/>
+                            <constraint firstItem="ID3-jl-n9c" firstAttribute="leading" secondItem="Sdv-px-cN0" secondAttribute="leadingMargin" constant="-16" id="we5-bK-yQ3"/>
+                            <constraint firstItem="ID3-jl-n9c" firstAttribute="bottom" secondItem="Sdv-px-cN0" secondAttribute="bottomMargin" id="x85-tV-FGd"/>
+                        </constraints>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="ID3-jl-n9c"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="JLC-AP-XqL"/>
+                                <exclude reference="wPe-vB-iZa"/>
+                                <exclude reference="we5-bK-yQ3"/>
+                                <exclude reference="x85-tV-FGd"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
                             <mask key="subviews">
                                 <include reference="ID3-jl-n9c"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="JLC-AP-XqL"/>
+                                <include reference="wPe-vB-iZa"/>
+                                <include reference="we5-bK-yQ3"/>
+                                <include reference="x85-tV-FGd"/>
                             </mask>
                         </variation>
                     </view>

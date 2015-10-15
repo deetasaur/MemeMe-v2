@@ -12,8 +12,6 @@
 	<dict>
 		<key>3D29C80AE6D476548F3061E80BA74E598C8F1DCF</key>
 		<string>https://github.com/deetasaur/MemeMe-v2.git</string>
-		<key>BE734ACE009F6AE8706AC9AB11DB61B3AFC3B8EC</key>
-		<string>https://github.com/deetasaur/MemeMe.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>MemeMe.xcodeproj</string>
@@ -21,8 +19,6 @@
 	<dict>
 		<key>3D29C80AE6D476548F3061E80BA74E598C8F1DCF</key>
 		<string>../..</string>
-		<key>BE734ACE009F6AE8706AC9AB11DB61B3AFC3B8EC</key>
-		<string>../../../MemeMe</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/deetasaur/MemeMe-v2.git</string>
@@ -32,14 +28,6 @@
 	<string>3D29C80AE6D476548F3061E80BA74E598C8F1DCF</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
-		<dict>
-			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
-			<string>public.vcs.git</string>
-			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>BE734ACE009F6AE8706AC9AB11DB61B3AFC3B8EC</string>
-			<key>IDESourceControlWCCName</key>
-			<string>MemeMe</string>
-		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
